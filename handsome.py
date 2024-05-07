@@ -339,7 +339,6 @@ def file():
                                         plist.append('last111')
                                         plist.append('Nepal123')
                                         plist.append('nepal@123')
-					plist.append('first987')
                                 else:
                                         try:
                                                 linex()
