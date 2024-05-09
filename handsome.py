@@ -194,8 +194,7 @@ def joined(ids):
     elif len(ids)==7:
         creation = '\33[1;37m| \33[1;32m2006/2007'
     else:creation=''
-    return creation  
-os.system("xdg-open https://chat.whatsapp.com/LqD6xwVHHW1EdYhjDN39Jf")        
+    return creation         
 def getKey():
 
     uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
@@ -206,7 +205,7 @@ def getKey():
     bumper = bxd+id+xp
     return bumper
 def ua():
-    END = 'Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:Y535S AppleWebKit/537.36 (KHTML, like Gecko)94 0 6471 58 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:V4532W AppleWebKit/537.36 (KHTML, like Gecko)84 0 5906 134 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:F6942Z AppleWebKit/537.36 (KHTML, like Gecko)94 0 6695 124 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
+    END = 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:V4532W AppleWebKit/537.36 (KHTML, like Gecko)84 0 5906 134 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:F6942Z AppleWebKit/537.36 (KHTML, like Gecko)94 0 6695 124 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
     ua = 'Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:T2833Y AppleWebKit/537.36 (KHTML, like Gecko)93 0 5869 111 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:W8498I AppleWebKit/537.36 (KHTML, like Gecko)85 0 5901 56 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:Q1379U AppleWebKit/537.36 (KHTML, like Gecko)85 0 6153 108 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua        
     ua = 'Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:M8096I AppleWebKit/537.36 (KHTML, like Gecko)97 0 6252 144 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:T5916V AppleWebKit/537.36 (KHTML, like Gecko)92 0 5915 144 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:F5918T AppleWebKit/537.36 (KHTML, like Gecko)97 0 5931 109 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
@@ -229,7 +228,7 @@ logo=("""
                                                            
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃𝐀𝐃𝐌𝐈𝐍:HANDSOME             ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.4        ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.5        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
