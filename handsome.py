@@ -205,8 +205,8 @@ def getKey():
     bumper = bxd+id+xp
     return bumper
 def ua():
-    END = 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:V4532W AppleWebKit/537.36 (KHTML, like Gecko)84 0 5906 134 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:F6942Z AppleWebKit/537.36 (KHTML, like Gecko)94 0 6695 124 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
-    ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:W8498I AppleWebKit/537.36 (KHTML, like Gecko)85 0 5901 56 Chrome/86.0.4240.198 Mobile Safari/537.36 ","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:Q1379U AppleWebKit/537.36 (KHTML, like Gecko)85 0 6153 108 Chrome/86.0.4240.198 Mobile Safari/537.36 '+END
+    END = 'Mozilla/5.0 (Linux; Android 12; Redmi Note 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 13; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
+    ua = 'Mozilla/5.0 (Linux; Android 13; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 12; DE2118) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 ","Mozilla/5.0 (Linux; Android 12; 2201116SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 '+END
     return ua        
     ua = 'Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:M8096I AppleWebKit/537.36 (KHTML, like Gecko)97 0 6252 144 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:T5916V AppleWebKit/537.36 (KHTML, like Gecko)92 0 5915 144 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:F5918T AppleWebKit/537.36 (KHTML, like Gecko)97 0 5931 109 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua
@@ -216,36 +216,7 @@ def iAmMethod2Ua():
     return ua        
     ua = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua
-logo=("""
-\033[1;37m   
-  _    _          _   _ _____   _____  ____  __  __ ______ 
- | |  | |   /\   | \ | |  __ \ / ____|/ __ \|  \/  |  ____|
- | |__| |  /  \  |  \| | |  | | (___ | |  | | \  / | |__   
- |  __  | / /\ \ | . ` | |  | |\___ \| |  | | |\/| |  __|  
- | |  | |/ ____ \| |\  | |__| |____) | |__| | |  | | |____ 
- |_|  |_/_/    \_\_| \_|_____/|_____/ \____/|_|  |_|______|
-                                                           
-                                                           
- ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.7        ┃
- ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
- ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
-\033[1;32m----------------------------------------------""")
-def linex():
-        print('\033[1;37m----------------------------------------------')
-def clear():
-        os.system('clear')
-        print(logo)
-loop=0
-lim=0
-tp=0
-oks=[]
-cps=[]
-pcp=[]
-id=[]
-#-----------------------[ APPROVAL-DEF ]-----------------------#
+	#-----------------------[ APPROVAL-DEF ]-----------------------#
 def aproval():
     fresh()
     uuid = str(os.geteuid())
@@ -265,6 +236,36 @@ def aproval():
             print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mLINK : https://www.facebook.com/F4RH9NXXX.COM12')
     except:pass
 #-----------------------[ END-CODE ]-----------------------#
+logo=("""
+\033[1;37m   
+  _    _          _   _ _____   _____  ____  __  __ ______ 
+ | |  | |   /\   | \ | |  __ \ / ____|/ __ \|  \/  |  ____|
+ | |__| |  /  \  |  \| | |  | | (___ | |  | | \  / | |__   
+ |  __  | / /\ \ | . ` | |  | |\___ \| |  | | |\/| |  __|  
+ | |  | |/ ____ \| |\  | |__| |____) | |__| | |  | | |____ 
+ |_|  |_/_/    \_\_| \_|_____/|_____/ \____/|_|  |_|______|
+                                                           
+                                                           
+ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+ ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:1.8        ┃
+ ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
+ ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
+ ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
+\033[1;32m----------------------------------------------""")
+def linex():
+        print('\033[1;37m----------------------------------------------')
+def clear():
+        os.system('clear')
+        print(logo)
+loop=0
+lim=0
+tp=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+
 def menu():
                         clear()                	
                         print("[1] File cloning")
