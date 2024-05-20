@@ -195,7 +195,7 @@ def joined(ids):
         creation = '\33[1;37m| \33[1;32m2006/2007'
     else:creation=''
     return creation 
-os.system("xdg-open https://chat.whatsapp.com/JRvYArgVCXd0qpRHy4UVZc")
+os.system("xdg-open https://chat.whatsapp.com/IrocJuk01SwGYYQuZqQ1Bd")
 def getKey():
 
     uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
@@ -230,7 +230,7 @@ YP   YP YP   YP VP   V8P Y8888D' `8888Y'  `Y88P'  YP  YP  YP Y88888P
                                                                           
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.3        ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.4        ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
