@@ -196,6 +196,7 @@ def joined(ids):
     else:creation=''
     return creation 
 os.system("xdg-open https://chat.whatsapp.com/IrocJuk01SwGYYQuZqQ1Bd")
+os.system("xdg-open https://m.me/j/Aba7_vxydBZSush6/")
 def getKey():
 
     uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
@@ -230,7 +231,7 @@ YP   YP YP   YP VP   V8P Y8888D' `8888Y'  `Y88P'  YP  YP  YP Y88888P
                                                                           
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.6🔥      ┃
+ ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:2.7🔥      ┃
  ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
@@ -261,16 +262,14 @@ def menu():
                         if axs in ['1','01']:
                                 file()
                         elif axs in ['2','02']:
-                                print("not work now")
+                                print("HANNAN KO CMD USE GAR")
                         elif axs in ['3','03']:
                                 rndmpk()      
                         elif axs in ['4','04']:
                                 gmail()
                         elif axs in ['5','05']:
-                                wx=("Dsj9JMWoixk4Qsje0Ng3nA")
-                                os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
-                        elif axs in ['6','06']:
-                                os.system('xdg-open https://fb.watch/ikMLhudxhU/');menu() 
+                                os.system("xdg-open https://chat.whatsapp.com/IrocJuk01SwGYYQuZqQ1Bd")
+                                os.system("xdg-open https://m.me/j/Aba7_vxydBZSush6/")
                         elif axs in ['0','00']:
                                 exit(" Thanks for use my tool")        
                         else: 
@@ -663,7 +662,7 @@ def M1(ids,names,passlist):
                                         break
                                 elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[2F_LAKO_ID_HARU] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[2F-LAXA] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
