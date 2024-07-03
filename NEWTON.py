@@ -221,14 +221,18 @@ def iAmMethod2Ua():
 logo=("""
 \033[1;37m   
   
-db   db  .d8b.  d8b   db d8888b. .d8888.  .d88b.  .88b  d88. d88888b      
-88   88 d8' `8b 888o  88 88  `8D 88'  YP .8P  Y8. 88'YbdP`88 88'          
-88ooo88 88ooo88 88V8o 88 88   88 `8bo.   88    88 88  88  88 88ooooo      
-88~~~88 88~~~88 88 V8o88 88   88   `Y8b. 88    88 88  88  88 88~~~~~      
-88   88 88   88 88  V888 88  .8D db   8D `8b  d8' 88  88  88 88.          
-YP   YP YP   YP VP   V8P Y8888D' `8888Y'  `Y88P'  YP  YP  YP Y88888P      
-                                                                          
-                                                                          
+ooooo      ooo oooooooooooo oooooo   oooooo     oooo ooooooooooooo   .oooooo.   ooooo      ooo 
+`888b.     `8' `888'     `8  `888.    `888.     .8'  8'   888   `8  d8P'  `Y8b  `888b.     `8' 
+ 8 `88b.    8   888           `888.   .8888.   .8'        888      888      888  8 `88b.    8  
+ 8   `88b.  8   888oooo8       `888  .8'`888. .8'         888      888      888  8   `88b.  8  
+ 8     `88b.8   888    "        `888.8'  `888.8'          888      888      888  8     `88b.8  
+ 8       `888   888       o      `888'    `888'           888      `88b    d88'  8       `888  
+o8o        `8  o888ooooood8       `8'      `8'           o888o      `Y8bood8P'  o8o        `8  
+                                                                                               
+                                                                                               
+                                                                                                                                                                         
+
+NOTE:(NAME HAS BEEN CHANGED FROM HANDSOME TO NEWTON)				
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
  ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:3.3🔥      ┃
