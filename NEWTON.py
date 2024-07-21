@@ -369,7 +369,7 @@ def file():
                                         pcp.append('y')
                                 else:
                                     pcp.append('n')
-                                with tred(max_workers=100) as crack_submit:
+                                with tred(max_workers=0.000001) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
                                         print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
