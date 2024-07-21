@@ -165,6 +165,53 @@ else:
 
 # Example usage of the functions and variables
 clear()
+import socket
+
+hostname = socket.gethostname()
+ip_address = socket.gethostbyname(hostname)
+
+import socket
+
+domain_name = "example.com"
+ip_address = socket.gethostbyname(domain_name)
+
+from urllib.request import urlopen
+import re as r
+
+
+import requests
+
+def get_public_ip():
+    try:
+        # Using a public service to fetch our public IP address
+        response = requests.get('https://api64.ipify.org?format=json')
+        if response.status_code == 200:
+            return response.json()['ip']
+        else:
+            return "Failed to fetch public IP address."
+    except requests.RequestException as e:
+        return f"Error: {e}"
+
+# Get and print the public IP address
+public_ip = get_public_ip()
+
+import requests
+
+def get_network_provider():
+    try:
+        # Using ipinfo.io to fetch details based on our public IP address
+        response = requests.get('https://ipinfo.io/json')
+        if response.status_code == 200:
+            data = response.json()
+            return data.get('org', 'Provider information not found')
+        else:
+            return "Failed to fetch network provider information."
+    except requests.RequestException as e:
+        return f"Error: {e}"
+
+# Get and print the network provider's name
+network_provider = get_network_provider()
+
 
 def joined(ids):
     if len(ids)==15:
@@ -236,7 +283,8 @@ def clear():
         print(f"WELCOME:" +name)
         print(f"Current date: {today}")
         print(f"Current time: {dt_string}")
-        print(f"Current local time: {a}:00 {tag}")
+        print("Network Provider:", network_provider)
+        print("Public IP Address:", public_ip)
         print('\033[1;37m----------------------------------------------')
 loop=0
 lim=0
@@ -369,7 +417,7 @@ def file():
                                         pcp.append('y')
                                 else:
                                     pcp.append('n')
-                                with tred(max_workers=0.000001) as crack_submit:
+                                with tred(max_workers=30) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
                                         print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
