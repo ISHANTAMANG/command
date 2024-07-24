@@ -429,7 +429,7 @@ def file():
                                 else:
                                     pcookie.append('n')
                                 linex()
-                                with tred(max_workers=15) as crack_submit:
+                                with tred(max_workers=50) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
                                         print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
