@@ -423,7 +423,7 @@ def file():
                                 print(' Do you want show cookies? (y/n): ')
                                 linex()
                                 DI=input(' Choose: ')
-                                if cx in ['y','Y','yes','Yes','1']:
+                                if DI in ['y','Y','yes','Yes','1']:
                                         pcookie.append('y')
                                 else:
                                     pcookie.append('n')
