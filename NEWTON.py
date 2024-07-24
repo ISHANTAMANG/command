@@ -421,6 +421,7 @@ def file():
                                     pcp.append('n')
                                 linex()
                                 print(' Do you want show cookies? (y/n): ')
+                                pcookie = []
                                 linex()
                                 DI=input(' Choose: ')
                                 if DI in ['y','Y','yes','Yes','1']:
